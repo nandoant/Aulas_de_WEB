@@ -9,7 +9,12 @@ Vamos criar variáveis e objetos para representar diferentes tipos de dados rela
     idade: do tipo number, representando a idade do usuário.
     email: do tipo string, representando o endereço de e-mail do usuário.
     isAtivo: do tipo boolean, representando se o usuário está ativo ou não.
-
+*/
+    let nomeCompleto: string;
+    let idade: number;
+    let email: string;
+    let isAtivo: boolean;
+/*
 2 -Crie um objeto usuario com as seguintes propriedades:
 
     nome: string, representando o primeiro nome do usuário.
@@ -21,8 +26,28 @@ Vamos criar variáveis e objetos para representar diferentes tipos de dados rela
     Em seguida, imprima todas as variáveis e propriedades do objeto usuario usando console.log.
 
 */
+    interface Usuario {
+        nome: string,
+        sobrenome: string,
+        idade: number,
+        contato: {
+            email: string,
+            telefone?: string // O símbolo '?' indica que a propriedade é opcional
+        };
+    }
 
-
+    // Criando um objeto usuario
+    let usuario: Usuario = {
+        nome: 'PrimeiroNome',
+        sobrenome: 'Sobrenome',
+        idade: 30,
+        contato: {
+            email: 'usuario@exemplo.com.br',
+            telefone: '123-456-7890'
+        }
+    };
+    
+    console.log(usuario);
 /*
 
 Exercício:
@@ -34,7 +59,12 @@ Precisamos armazenar informações sobre diferentes produtos disponíveis na loj
     nomeProduto: do tipo string, representando o nome de um produto.
     preco: do tipo number, representando o preço do produto.
     disponivel: do tipo boolean, representando se o produto está disponível em estoque ou não.
+*/
+    let nomeProduto: string;
+    let preco: number;
+    let disponivel: boolean;
 
+/*
 
 02 - Crie um objeto produto com as seguintes propriedades:
 
@@ -45,3 +75,19 @@ Precisamos armazenar informações sobre diferentes produtos disponíveis na loj
     Em seguida, imprima todas as variáveis e propriedades do objeto produto usando console.log.
 
 */
+
+        type produto ={
+            nome:string,
+            preco:number,
+            estoque:number,
+            categorias:string[]
+        };
+
+        let produto: produto ={
+            nome:'Chocolate',
+            preco: 15,
+            estoque: 125,
+            categorias: ['doce', 'alimento', 'sobremesa']
+        };
+
+    console.log(produto);

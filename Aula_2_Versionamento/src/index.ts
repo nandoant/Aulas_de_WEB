@@ -26,7 +26,7 @@ Vamos criar variáveis e objetos para representar diferentes tipos de dados rela
     Em seguida, imprima todas as variáveis e propriedades do objeto usuario usando console.log.
 
 */
-    interface Usuario {
+    let Usuario: {
         nome: string,
         sobrenome: string,
         idade: number,
@@ -37,7 +37,7 @@ Vamos criar variáveis e objetos para representar diferentes tipos de dados rela
     }
 
     // Criando um objeto usuario
-    let usuario: Usuario = {
+    Usuario = {
         nome: 'PrimeiroNome',
         sobrenome: 'Sobrenome',
         idade: 30,
@@ -46,8 +46,8 @@ Vamos criar variáveis e objetos para representar diferentes tipos de dados rela
             telefone: '123-456-7890'
         }
     };
-    
-    console.log(usuario);
+    Usuario.nome = "teste";
+    console.log(Usuario);
 /*
 
 Exercício:

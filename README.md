@@ -1,5 +1,3 @@
-# web_01_2024
-Práticas desenvolvidas em sala de aula
 # Aulas de Desenvolvimento Web com TypeScript
 
 Este repositório é uma documentação do meu progresso nas aulas de Desenvolvimento Web, focando na aprendizagem de TypeScript. Aqui, você encontrará informações sobre cada aula e os arquivos associados.

@@ -27,4 +27,4 @@ console.log(mediaPonderada([10, 20, 30, 40, 50], [1, 2, 3, 4, 5])); // 36.666...
 console.log('\n');
 /*Exercício 03 - Crie uma função em TypeScript que valide se um CPF é válido ou não. O CPF é
 composto por 11 dígitos numéricos. Considere a entrada como numérica. Para ser válido, ele deve
-seguir algumas regras específicas de formação e ter dígitos verificadores corretos.*/ 
+seguir algumas regras específicas de formação e ter dígitos verificadores corretos.*/

@@ -30,3 +30,37 @@ console.log('\n');
 composto por 11 dígitos numéricos. Considere a entrada como numérica. Para ser válido, ele deve
 seguir algumas regras específicas de formação e ter dígitos verificadores corretos.*/
 
+function validaçãoCPF(CPF:number){
+    let ArrayCPF = numberToArray(CPF);
+    return validaçãoPrimeiroDigito(CPF,ArrayCPF) && validaçãoSegundoDigito(CPF,ArrayCPF);
+}
+
+function validaçãoSegundoDigito(CPF:number, arrayCPF:number[]){
+    let soma=0;
+    let j = 11;
+    for(let i=0; i<10; i++){
+            soma += arrayCPF[i] * j;
+            j--;
+    }
+    return (soma*10)%11 == arrayCPF[10];
+}
+function validaçãoPrimeiroDigito(CPF:number, arrayCPF:number[]){
+    let soma=0;
+    let j = 10;
+    for(let i=0; i<9; i++){
+            soma += arrayCPF[i] * j;
+            j--;
+    }
+    if((soma*10)%11 == 10)
+        soma = 0;
+    return (soma*10)%11 == arrayCPF[9];
+}
+
+function numberToArray(num: number): number[] {
+    return num.toString().split('').map(Number);
+}
+
+// Testando a função
+console.log("Testes Ex2");
+console.log(validaçãoCPF(52998224725)); //true
+console.log(validaçãoCPF(52998224726)); //false

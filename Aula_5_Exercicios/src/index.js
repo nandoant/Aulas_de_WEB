@@ -28,3 +28,34 @@ console.log('\n');
 /*Exercício 03 - Crie uma função em TypeScript que valide se um CPF é válido ou não. O CPF é
 composto por 11 dígitos numéricos. Considere a entrada como numérica. Para ser válido, ele deve
 seguir algumas regras específicas de formação e ter dígitos verificadores corretos.*/
+function validaçãoCPF(CPF) {
+    let ArrayCPF = numberToArray(CPF);
+    return validaçãoPrimeiroDigito(CPF, ArrayCPF) && validaçãoSegundoDigito(CPF, ArrayCPF);
+}
+function validaçãoSegundoDigito(CPF, arrayCPF) {
+    let soma = 0;
+    let j = 11;
+    for (let i = 0; i < 10; i++) {
+        soma += arrayCPF[i] * j;
+        j--;
+    }
+    return (soma * 10) % 11 == arrayCPF[10];
+}
+function validaçãoPrimeiroDigito(CPF, arrayCPF) {
+    let soma = 0;
+    let j = 10;
+    for (let i = 0; i < 9; i++) {
+        soma += arrayCPF[i] * j;
+        j--;
+    }
+    if ((soma * 10) % 11 == 10)
+        soma = 0;
+    return (soma * 10) % 11 == arrayCPF[9];
+}
+function numberToArray(num) {
+    return num.toString().split('').map(Number);
+}
+// Testando a função
+console.log("Testes Ex2");
+console.log(validaçãoCPF(52998224725)); //true
+console.log(validaçãoCPF(52998224726)); //false

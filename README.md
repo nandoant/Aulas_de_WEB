@@ -30,12 +30,12 @@ Esta aula estabeleceu a base necessária para a compreensão dos conceitos que s
  **Aula 4: Exercícios de Funções**
  
   Na quarta aula, focamos em funções em TypeScript, aplicando conceitos fundamentais para solução de exercícios práticos
-   - [Link para os exercícios](https://github.com/nandoant/Aulas_de_WEB/tree/main/Aula_4_Exercicios_Fun%C3%A7%C3%B5es)
+   - [Link para os exercícios](https://github.com/nandoant/Aulas_de_WEB/blob/main/Aula_4_Exercicios_Fun%C3%A7%C3%B5es/src/index.ts)
 ---
 **Aula 5: Exercícios**
 
 Na quinta aula, continuamos focando em resolver exercícios/desafios práticos utilizando o TypeScript, como por exemplo:  validação de CPF, considerando regras específicas.
-   - [Link para os exercícios](https://github.com/nandoant/Aulas_de_WEB/tree/main/Aula_5_Exercicios)
+   - [Link para os exercícios](https://github.com/nandoant/Aulas_de_WEB/blob/main/Aula_5_Exercicios/src/index.ts)
 
 
 ## Notas Adicionais

@@ -27,7 +27,7 @@ Esta aula estabeleceu a base necessária para a compreensão dos conceitos que s
     -   Objeto `produto` com propriedades específicas.
    - [Link para o arquivo da aula](https://github.com/nandoant/Aulas_de_WEB/tree/main/Aula_2_HTML%2BTypeScript)
 ---
- **Aula 4: Exercícios de Funções**
+ **Aula 4: Lista01 de Exercícios de Funções**
  
   Na quarta aula, focamos em funções em TypeScript, aplicando conceitos fundamentais para solução de exercícios práticos
    - [Link para os exercícios](https://github.com/nandoant/Aulas_de_WEB/blob/main/Aula_4_Exercicios_Fun%C3%A7%C3%B5es/src/index.ts)
@@ -36,8 +36,10 @@ Esta aula estabeleceu a base necessária para a compreensão dos conceitos que s
 
 Na quinta aula, continuamos focando em resolver exercícios/desafios práticos utilizando o TypeScript, como por exemplo:  validação de CPF, considerando regras específicas.
    - [Link para os exercícios](https://github.com/nandoant/Aulas_de_WEB/blob/main/Aula_5_Exercicios/src/index.ts)
-
-
+---
+**Aula 6: Lista02 de Exercícios de Classes**
+Na sexta aula, focamos em resolver alguns desafios usando os conhecimentos aprendidos em aula sobre classes.
+- [Link para os exercícios](https://github.com/nandoant/Aulas_de_WEB/)
 ## Notas Adicionais
 
 - Este repositório faz parte do meu registro pessoal de aprendizado e não tem como objetivo aceitar contribuições externas.

@@ -7,7 +7,7 @@ Este repositório é uma documentação do meu progresso nas aulas de Desenvolvi
 - - [Aula 3: Funcoes](#aula-3-funcoes)
 - - [Aula 4: Classes](#aula-4-classes)
 - [Exercicios](#Exercicios)
-- - [Exercícios 01](#exercícios-01)
+- - [Exercícios 01](#exercícios-01-validação-de-cpf-ordenação)
 - [Listas](#Listas)
 - - [Lista 01 - Funções](#lista-01-funções)
 - - [Lista 02 - Classes](#lista-02-classes)
@@ -46,7 +46,10 @@ Adicionalmente, discutimos o conceito de escopo de função e a diferença entre
    - ---
  ##### Aula 4: Classes
  
-A segunda lista de exercícios aborda o tema de classes em programação. As classes são uma das principais características da programação orientada a objetos em TypeScript. Nesta lista, exploramos a criação de classes, a utilização de construtores, a implementação de métodos e a manipulação de instâncias de classes.
+A quarta aula aborda o tema de classes em programação. As classes são uma das principais características da programação orientada a objetos em TypeScript. Nesta lista, exploramos a criação de classes, a utilização de construtores, a implementação de métodos e a manipulação de instâncias de classes.
+
+- [Link para a lista de exercícios](https://github.com/nandoant/Aulas_de_WEB/blob/main/Lista02_Classes/src/index.ts)
+
    - [Link para o arquivo da aula](https://github.com/nandoant/Aulas_de_WEB/tree/main/Aula_4_Classes)
 ## Exercicios
 Esses exercicios são exercícios desenvolvidas durante as aulas de WEB para a pratica dos nossos conhecimentos.
@@ -64,7 +67,7 @@ A primeira lista de exercícios aborda o tema de funções em programação.
  
 ##### Lista 02: Classes
 
-A segunda lista de exercícios concentra-se em conceitos relacionados a classes em programação orientada a objetos.
+A segunda lista de exercícios aborda o tema de classes em programação
 - [Link para a lista de exercícios](https://github.com/nandoant/Aulas_de_WEB/blob/main/Lista02_Classes/src/index.ts)
 ## Notas Adicionais
 

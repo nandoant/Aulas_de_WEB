@@ -26,8 +26,9 @@ class Carro {
     set setAno(ano) {
         this.ano = ano;
     }
-    verificarAno(anoAtual) {
-        return anoAtual - this.ano;
+    verificarAno() {
+        const anoAtual = new Date;
+        return anoAtual.getFullYear() - this.ano;
     }
 }
 console.log("---Testes do Objeto Carro---");
@@ -35,7 +36,7 @@ const lamboDoNando = new Carro('lamborghini', 'vermelho', 2023);
 console.log(lamboDoNando.getAno); // lamborghini
 console.log(lamboDoNando.getModelo); // vermelho
 console.log(lamboDoNando.getCor); //2023
-console.log(lamboDoNando.verificarAno(2030)); // 7
+console.log(lamboDoNando.verificarAno()); // 1
 lamboDoNando.setAno = 2020;
 lamboDoNando.setModelo = 'fusca';
 lamboDoNando.setCor = 'prata';

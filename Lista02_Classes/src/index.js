@@ -157,11 +157,20 @@ class produto {
         return "Desculpe, mas não há estoque para poder ser calculado!";
     }
     vender(quantidade) {
-        if (quantidade < this.quantidadeEmEstoque) {
-            this.getQuantidadeEmEstoque - quantidade;
+        if (quantidade <= this.quantidadeEmEstoque) {
+            this.quantidadeEmEstoque = this.getQuantidadeEmEstoque - quantidade;
             return 'Transação realizada com sucesso!';
         }
         return 'Desculpe, no momento não temos estoque suficiente para essa compra';
     }
 }
 console.log("---Teste do Produto---");
+const produto1 = new produto('Camisa', 50, 10);
+console.log(produto1.calcularValorTotalEmEstoque()); // 500
+console.log(produto1.vender(5)); // Transação realizada com sucesso!
+console.log(produto1.calcularValorTotalEmEstoque()); // 250
+console.log(produto1.vender(6)); // Desculpe, no momento não temos estoque suficiente para essa compra
+console.log(produto1.vender(5)); // Transação realizada com sucesso!
+console.log(produto1.calcularValorTotalEmEstoque()); //Desculpe, mas não há estoque para poder ser calculado!
+console.log("------");
+console.log("\n");

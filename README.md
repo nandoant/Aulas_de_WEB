@@ -2,7 +2,7 @@
 
 Este repositório é uma documentação do meu progresso nas aulas de Desenvolvimento Web, focando na aprendizagem de TypeScript. Aqui, você encontrará informações sobre cada aula e os arquivos associados.
 - [Aulas](#Aulas)
-- - [Aula 1: Tipos e Variáveis](#Aula-1:-Tipos-e-Variáveis)
+- - [Aula 1: Tipos e Variáveis](#Aula-1)
 - [Exercicios](#Exercicios)
 - [Listas](#Listas)
 

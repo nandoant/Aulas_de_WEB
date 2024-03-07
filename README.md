@@ -2,9 +2,10 @@
 
 Este repositório é uma documentação do meu progresso nas aulas de Desenvolvimento Web, focando na aprendizagem de TypeScript. Aqui, você encontrará informações sobre cada aula e os arquivos associados.
 - [Aulas](#Aulas)
-- - [Aula 1: Tipos e Variáveis](#Aula-1)
+- - [Aula 1: Tipos e Variáveis](https://github.com/nandoant/Aulas_de_WEB/tree/main?tab=readme-ov-file#aula-2-versionamento:~:text=Aulas-,Aula%201%3A%20Tipos%20e%20Vari%C3%A1veis,-Na%20primeira%20aula)
 - [Exercicios](#Exercicios)
 - [Listas](#Listas)
+- - [Lista 02 - Classes](https://github.com/nandoant/Aulas_de_WEB/tree/main?tab=readme-ov-file#lista-02-classes)
 
 ## Aulas
 

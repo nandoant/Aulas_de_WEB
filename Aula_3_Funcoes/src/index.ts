@@ -100,7 +100,39 @@ switch(expression) {
 } 
 
 */
-
+function calculadora(num1:number, num2:number, operacao:string){
+    switch(operacao){
+        case "soma":{
+            return num1 + num2;
+            break;
+        }
+        case "subtracao":{
+            return num1 - num2;
+            break;
+        }
+        case "multiplicacao":{
+            return num1 * num2;
+            break;
+        }
+        case "divisao":{
+            return num1 / num2;
+            break;
+        }
+        default: {
+            return "Opção de operação invalida!";
+            break;
+        }
+    }
+}
+console.log("---Testes Calculadora---");
+//Resultado esperado:
+console.log(calculadora(5, 3, "soma")); // Saída esperada: 8
+console.log(calculadora(10, 2, "subtracao")); // Saída esperada: 8
+console.log(calculadora(4, 5, "multiplicacao")); // Saída esperada: 20
+console.log(calculadora(10, 2, "divisao")); // Saída esperada: 5
+console.log(calculadora(10, 2, "divisão")); // Saída esperada: Opção de operação invalida!
+console.log("------");
+console.log("\n");
 
 /*
 Exercício 2: Verificador de Palíndromo
@@ -111,10 +143,22 @@ Resultado esperado:
 console.log(verificarPalindromo("arara")); // Saída esperada: true
 console.log(verificarPalindromo("reviver")); // Saída esperada: true
 console.log(verificarPalindromo("banana")); // Saída esperada: false
-console.log(verificarPalindromo("reconhecer")); // Saída esperada: true
+console.log(verificarPalindromo("reconhecer")); // Saída esperada: true?
 
 Dica:
 let frase: string = "Ana"
 const fraseInverso = frase.split('').reverse().join('');
 
 */
+function verificarPalindromo(palavra:string){
+    let palavraInvertido = palavra.split('').reverse().join('');
+    return palavra === palavraInvertido;
+}
+
+console.log("---Testes Palindromo---");
+//Resultado esperado:
+console.log(verificarPalindromo("arara")); // Saída esperada: true
+console.log(verificarPalindromo("reviver")); // Saída esperada: true
+console.log(verificarPalindromo("banana")); // Saída esperada: false
+console.log(verificarPalindromo("reconhecer")); // Saída esperada: false
+console.log("------");

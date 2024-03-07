@@ -21,6 +21,7 @@ Este repositório é uma documentação do meu progresso nas aulas de Desenvolvi
 Também introduzimos tipos mais avançados, como `union` para aceitar múltiplos tipos e `intersection` para combinar tipos. Além disso, discutimos a diferença entre **Annotations** e **Inferência de Tipo**.
 
 Esta aula estabeleceu a base necessária para a compreensão dos conceitos que serão explorados nas próximas etapas do curso.
+
    - [Link para o arquivo da aula](https://github.com/nandoant/Aulas_de_WEB/tree/main/Aula_1_Tipos_Variaveis)
 ---
 ##### Aula 2: Versionamento
@@ -35,6 +36,7 @@ Esta aula estabeleceu a base necessária para a compreensão dos conceitos que s
     
     -   Variáveis primitivas: `nomeProduto`, `preco`, `disponivel`.
     -   Objeto `produto` com propriedades específicas.
+    
    - [Link para o arquivo da aula](https://github.com/nandoant/Aulas_de_WEB/tree/main/Aula_2_Versionamento)
 ---
  #####  Aula 3: Funcoes
@@ -42,32 +44,37 @@ Esta aula estabeleceu a base necessária para a compreensão dos conceitos que s
 Na terceira aula, aprofundamos nosso conhecimento sobre funções em TypeScript. Aprendemos sobre a estrutura básica de uma função, incluindo parâmetros e retorno. Também estudamos funções anônimas, funções de seta e funções de alta ordem.
 
 Adicionalmente, discutimos o conceito de escopo de função e a diferença entre escopo de bloco e escopo de função.Essa aula nos proporcionou uma compreensão mais aprofundada de como as funções operam em TypeScript e como podemos utilizá-las para produzir um código mais limpo e eficiente.
+
    - [Link para o arquivo da aula](https://github.com/nandoant/Aulas_de_WEB/tree/main/Aula_3_Funcoes)
    - ---
  ##### Aula 4: Classes
  
 A quarta aula aborda o tema de classes em programação. As classes são uma das principais características da programação orientada a objetos em TypeScript. Nesta lista, exploramos a criação de classes, a utilização de construtores, a implementação de métodos e a manipulação de instâncias de classes.
 
-- [Link para a lista de exercícios](https://github.com/nandoant/Aulas_de_WEB/blob/main/Lista02_Classes/src/index.ts)
-
    - [Link para o arquivo da aula](https://github.com/nandoant/Aulas_de_WEB/tree/main/Aula_4_Classes)
 ## Exercicios
 Esses exercicios são exercícios desenvolvidas durante as aulas de WEB para a pratica dos nossos conhecimentos.
+
+‎ 
 #####  Exercícios 01: Validação de CPF, Ordenação...
 
 Nessa primeira aula que tivemos com exercicios treinamos um pouco mais sobre funções e alguns metodos nativos de TypeScript. Fizemos funções como de validar CPF (a partir de algumas regras), ordenação usando metodo...
+
    - [Link para os exercícios](https://github.com/nandoant/Aulas_de_WEB/blob/main/Exercicios01_CPF/src/index.ts)
 ## Listas
 Estas listas são criadas pelo nosso professor para desafiar e aprimorar os conhecimentos adquiridos em sala de aula. Após a conclusão, as soluções são enviadas ao professor para avaliação e atribuição de nota.
 
+‎ 
 ##### Lista 01: Funções
 
 A primeira lista de exercícios aborda o tema de funções em programação.
+
 - [Link para a lista de exercícios](https://github.com/nandoant/Aulas_de_WEB/blob/main/Lista01_Fun%C3%A7%C3%B5es/src/index.ts)
- 
+ ---
 ##### Lista 02: Classes
 
 A segunda lista de exercícios aborda o tema de classes em programação
+
 - [Link para a lista de exercícios](https://github.com/nandoant/Aulas_de_WEB/blob/main/Lista02_Classes/src/index.ts)
 ## Notas Adicionais
 

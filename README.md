@@ -2,13 +2,15 @@
 
 Este repositório é uma documentação do meu progresso nas aulas de Desenvolvimento Web, focando na aprendizagem de TypeScript. Aqui, você encontrará informações sobre cada aula e os arquivos associados.
 - [Aulas](#Aulas)
-- - [Aula 1: Tipos e Variáveis](https://github.com/nandoant/Aulas_de_WEB/tree/main?tab=readme-ov-file#aula-1-tipos-e-vari%C3%A1veis)
-- - [Aula 2: Versionamento](https://github.com/nandoant/Aulas_de_WEB/tree/main?tab=readme-ov-file#aula-2-versionamento)
-- - [Aula 3: Funcoes](https://github.com/nandoant/Aulas_de_WEB/tree/main?tab=readme-ov-file#aula-3-funcoes)
+- - [Aula 1: Tipos e Variáveis](#aula-1-tipos-e-vari%C3%A1veis)
+- - [Aula 2: Versionamento](#aula-2-versionamento)
+- - [Aula 3: Funcoes](#aula-3-funcoes)
 - - [Aula 4: Classes](#aula-4-classes)
 - [Exercicios](#Exercicios)
+- - [Exercícios 01](##exercícios-01)
 - [Listas](#Listas)
-- - [Lista 02 - Classes](https://github.com/nandoant/Aulas_de_WEB/tree/main?tab=readme-ov-file#lista-02-classes)
+- - [Lista 01 - Funções](#lista-01-funções)
+- - [Lista 02 - Classes](#lista-02-classes)
 
 ## Aulas
 
@@ -50,12 +52,12 @@ Esta aula estabeleceu a base necessária para a compreensão dos conceitos que s
 Em construção..
    - [Link para os exercícios](https://github.com/nandoant/Aulas_de_WEB/blob/main/Exercicios01_CPF/src/index.ts)
 ## Listas
-##### Lista 01: funções
+##### Lista 01: Funções
 
 Em construção..
 - [Link para os exercícios](https://github.com/nandoant/Aulas_de_WEB/blob/main/Lista01_Fun%C3%A7%C3%B5es/src/index.ts)
  
-##### Lista 02: classes
+##### Lista 02: Classes
 
 Em construção..
 - [Link para os exercícios](https://github.com/nandoant/Aulas_de_WEB/blob/main/Lista02_Classes/src/index.ts)

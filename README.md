@@ -11,7 +11,6 @@ Este repositório é uma documentação do meu progresso nas aulas de Desenvolvi
 - [Listas](#Listas)
 - - [Lista 01 - Funções](#lista-01-funções)
 - - [Lista 02 - Classes](#lista-02-classes)
-
 ## Aulas
 
  ##### Aula 1: Tipos e Variáveis
@@ -52,19 +51,21 @@ Adicionalmente, discutimos o conceito de escopo de função e a diferença entre
 A quarta aula aborda o tema de classes em programação. As classes são uma das principais características da programação orientada a objetos em TypeScript. Nesta lista, exploramos a criação de classes, a utilização de construtores, a implementação de métodos e a manipulação de instâncias de classes.
 
    - [Link para o arquivo da aula](https://github.com/nandoant/Aulas_de_WEB/tree/main/Aula_4_Classes)
+
+‎ 
 ## Exercicios
 Esses exercicios são exercícios desenvolvidas durante as aulas de WEB para a pratica dos nossos conhecimentos.
 
-‎ 
 #####  Exercícios 01: Validação de CPF, Ordenação...
 
 Nessa primeira aula que tivemos com exercicios treinamos um pouco mais sobre funções e alguns metodos nativos de TypeScript. Fizemos funções como de validar CPF (a partir de algumas regras), ordenação usando metodo...
 
    - [Link para os exercícios](https://github.com/nandoant/Aulas_de_WEB/blob/main/Exercicios01_CPF/src/index.ts)
+
+‎ 
 ## Listas
 Estas listas são criadas pelo nosso professor para desafiar e aprimorar os conhecimentos adquiridos em sala de aula. Após a conclusão, as soluções são enviadas ao professor para avaliação e atribuição de nota.
 
-‎ 
 ##### Lista 01: Funções
 
 A primeira lista de exercícios aborda o tema de funções em programação.
@@ -76,6 +77,8 @@ A primeira lista de exercícios aborda o tema de funções em programação.
 A segunda lista de exercícios aborda o tema de classes em programação
 
 - [Link para a lista de exercícios](https://github.com/nandoant/Aulas_de_WEB/blob/main/Lista02_Classes/src/index.ts)
+
+‎ 
 ## Notas Adicionais
 
 - Este repositório faz parte do meu registro pessoal de aprendizado e não tem como objetivo aceitar contribuições externas.

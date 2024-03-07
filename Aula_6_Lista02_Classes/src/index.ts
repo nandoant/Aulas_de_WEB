@@ -150,8 +150,49 @@ indicando que não há estoque suficiente.
 Certifique-se de que a classe lida corretamente com situações de erro, como tentar vender mais
 produtos do que há em estoque. Teste todos os métodos. */
 class produto{
-    
-}
+    private nome: string;
+    private preco: number;
+    private quantidadeEmEstoque: number;
 
+    constructor(nome:string, preco:number, quantidadeEmEstoque:number){
+        this.nome = nome;
+        this.preco = preco;
+        this.quantidadeEmEstoque = quantidadeEmEstoque;
+    }
+
+    get getNome(){
+        return this.nome;
+    }
+    get getPreco(){
+        return this.preco;
+    }
+    get getQuantidadeEmEstoque(){
+        return this.quantidadeEmEstoque;
+    }
+
+    set setNome(nome:string){
+        nome = this.nome;
+    }
+    set setPreco(preco:number){
+        preco = this.preco;
+    }
+    set setQuantidadeEmEstoque(quantidadeEmEstoque:number){
+        quantidadeEmEstoque = this.quantidadeEmEstoque;
+    }
+
+    calcularValorTotalEmEstoque(){
+        if(this.quantidadeEmEstoque > 0)
+            return this.quantidadeEmEstoque * this.getPreco;
+        return "Desculpe, mas não há estoque para poder ser calculado!";
+    }
+
+    vender(quantidade: number){
+        if(quantidade < this.quantidadeEmEstoque){
+            this.getQuantidadeEmEstoque - quantidade;
+            return 'Transação realizada com sucesso!';
+        }
+        return 'Desculpe, no momento não temos estoque suficiente para essa compra'
+    }
+}
 
 console.log("---Teste do Produto---");

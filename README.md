@@ -38,6 +38,7 @@ Na quinta aula, continuamos focando em resolver exercícios/desafios práticos u
    - [Link para os exercícios](https://github.com/nandoant/Aulas_de_WEB/blob/main/Aula_5_Exercicios/src/index.ts)
 ---
 **Aula 6: Lista02 de Exercícios de Classes**
+
 Na sexta aula, focamos em resolver alguns desafios usando os conhecimentos aprendidos em aula sobre classes.
 - [Link para os exercícios](https://github.com/nandoant/Aulas_de_WEB/)
 ## Notas Adicionais

@@ -1,6 +1,54 @@
 /*Exercicio 1 – Complete a classe Carro para que os atributos da mesma sejam acessados somente por métodos
 (Getters/ Setters) e tenha um método para calcular a idade do carro com base no ano atual. Crie uma
 instância de Carro*/
+class Carro{
+    private modelo:string;
+    private cor:string;
+    private ano:number;
+
+    constructor(modelo:string, cor:string, ano:number){
+        this.modelo = modelo;
+        this.cor = cor;
+        this.ano = ano;
+    }
+    get getModelo():string{
+        return this.modelo;
+    }
+    get getCor():string{
+        return this.cor;
+    }
+    get getAno():number{
+        return this.ano;
+    }
+
+    set setModelo(modelo:string){
+        this.modelo = modelo;
+    }
+    set setCor(cor:string){
+        this.cor = cor;
+    }
+    set setAno(ano:number){
+        this.ano = ano;
+    }
+
+
+    verificarAno():number{
+        let anoAtual = new Date
+        return anoAtual.getFullYear() - this.ano;
+    }
+}
+console.log("---Testes do Objeto Carro---");
+const lamboDoNando = new Carro('lamborghini', 'vermelho', 2023);
+console.log(lamboDoNando.getAno); // lamborghini
+console.log(lamboDoNando.getModelo); // vermelho
+console.log(lamboDoNando.getCor); //2023
+console.log(lamboDoNando.verificarAno()); // 1
+lamboDoNando.setAno = 2020;
+lamboDoNando.setModelo = 'fusca';
+lamboDoNando.setCor = 'prata';
+console.log(lamboDoNando); // Carro { modelo: 'fusca', cor: 'prata', ano: 2020 }
+console.log("------");
+console.log("\n");
 
 /*Exercicio 2 : Desenvolva uma classe Calculadora em TypeScript
 
@@ -19,6 +67,64 @@ evite divisões por zero.
 ◦ Getters e Setters
 Certifique-se de que a classe lida corretamente com situações de erro, como a divisão por zero.
 Teste todos os métodos.*/
+class Calculadora{
+    private valor1:number;
+    private valor2:number;
+
+    constructor(valor1:number, valor2:number){
+        this.valor1 = valor1;
+        this.valor2 = valor2;
+    }
+
+    get getValor1(){
+        return this.valor1;
+    }
+
+    get getValor2(){
+        return this.valor2;
+    }
+
+    set setValor1(valor1:number){
+        valor1 = this.valor1;
+    }
+
+    set setValor2(valor2:number){
+        valor2 = this.valor2;
+    }
+
+    soma(){
+        return this.valor1 + this.valor2;
+    }
+
+    subtração(){
+        return this.valor1 - this.valor2;
+    }
+
+    multiplicação(){
+        return this.valor1 * this.valor2;
+    }
+
+    divisão(){
+        if(this.valor1 != 0 && this.valor2 != 0)
+            return this.valor1 / this.valor2;
+        return 'Erro! não podemos fazer divisão por 0'
+    }
+
+    porcentagem(){
+        return (this.valor1 / this.valor2) * 100;
+    }
+}
+console.log("---Teste da Calculadora---");
+const testCal = new Calculadora(2,6);
+console.log(testCal.soma()); // 8
+console.log(testCal.subtração()); // -4
+console.log(testCal.multiplicação()); // 12
+console.log(testCal.divisão());// 0.333..
+console.log(testCal.porcentagem()); // 33.33...
+
+console.log("------");
+console.log("\n");
+
 
 /*Exercicio 3:Desenvolva uma classe Produto em TypeScript
 
@@ -43,3 +149,10 @@ indicando que não há estoque suficiente.
 • Getters e Setters
 Certifique-se de que a classe lida corretamente com situações de erro, como tentar vender mais
 produtos do que há em estoque. Teste todos os métodos. */
+class produto{
+    
+}
+
+
+console.log("---Teste do Produto---");
+

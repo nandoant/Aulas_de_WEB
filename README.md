@@ -7,7 +7,7 @@ Este repositório é uma documentação do meu progresso nas aulas de Desenvolvi
 - - [Aula 3: Funcoes](#aula-3-funcoes)
 - - [Aula 4: Classes](#aula-4-classes)
 - [Exercicios](#Exercicios)
-- - [Exercícios 01](##exercícios-01)
+- - [Exercícios 01](#exercícios-01)
 - [Listas](#Listas)
 - - [Lista 01 - Funções](#lista-01-funções)
 - - [Lista 02 - Classes](#lista-02-classes)
@@ -39,28 +39,33 @@ Esta aula estabeleceu a base necessária para a compreensão dos conceitos que s
 ---
  #####  Aula 3: Funcoes
  
-  Em construção..
+Na terceira aula, aprofundamos nosso conhecimento sobre funções em TypeScript. Aprendemos sobre a estrutura básica de uma função, incluindo parâmetros e retorno. Também estudamos funções anônimas, funções de seta e funções de alta ordem.
+
+Adicionalmente, discutimos o conceito de escopo de função e a diferença entre escopo de bloco e escopo de função.Essa aula nos proporcionou uma compreensão mais aprofundada de como as funções operam em TypeScript e como podemos utilizá-las para produzir um código mais limpo e eficiente.
    - [Link para o arquivo da aula](https://github.com/nandoant/Aulas_de_WEB/tree/main/Aula_3_Funcoes)
    - ---
  ##### Aula 4: Classes
  
-  Em construção..
+A segunda lista de exercícios aborda o tema de classes em programação. As classes são uma das principais características da programação orientada a objetos em TypeScript. Nesta lista, exploramos a criação de classes, a utilização de construtores, a implementação de métodos e a manipulação de instâncias de classes.
    - [Link para o arquivo da aula](https://github.com/nandoant/Aulas_de_WEB/tree/main/Aula_4_Classes)
 ## Exercicios
-#####  Exercícios 01: 
+Esses exercicios são exercícios desenvolvidas durante as aulas de WEB para a pratica dos nossos conhecimentos.
+#####  Exercícios 01: Validação de CPF, Ordenação...
 
-Em construção..
+Nessa primeira aula que tivemos com exercicios treinamos um pouco mais sobre funções e alguns metodos nativos de TypeScript. Fizemos funções como de validar CPF (a partir de algumas regras), ordenação usando metodo...
    - [Link para os exercícios](https://github.com/nandoant/Aulas_de_WEB/blob/main/Exercicios01_CPF/src/index.ts)
 ## Listas
+Estas listas são criadas pelo nosso professor para desafiar e aprimorar os conhecimentos adquiridos em sala de aula. Após a conclusão, as soluções são enviadas ao professor para avaliação e atribuição de nota.
+
 ##### Lista 01: Funções
 
-Em construção..
-- [Link para os exercícios](https://github.com/nandoant/Aulas_de_WEB/blob/main/Lista01_Fun%C3%A7%C3%B5es/src/index.ts)
+A primeira lista de exercícios aborda o tema de funções em programação.
+- [Link para a lista de exercícios](https://github.com/nandoant/Aulas_de_WEB/blob/main/Lista01_Fun%C3%A7%C3%B5es/src/index.ts)
  
 ##### Lista 02: Classes
 
-Em construção..
-- [Link para os exercícios](https://github.com/nandoant/Aulas_de_WEB/blob/main/Lista02_Classes/src/index.ts)
+A segunda lista de exercícios concentra-se em conceitos relacionados a classes em programação orientada a objetos.
+- [Link para a lista de exercícios](https://github.com/nandoant/Aulas_de_WEB/blob/main/Lista02_Classes/src/index.ts)
 ## Notas Adicionais
 
 - Este repositório faz parte do meu registro pessoal de aprendizado e não tem como objetivo aceitar contribuições externas.

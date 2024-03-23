@@ -10,7 +10,7 @@ function helloWorldHandler ( req : Request , res : Response ) {
     res . status (200) . send (" Hello World !!!")
     }
    
-    app . get ('/ api/ hello ', helloWorldHandler );
+    app . get ('/api/hello', helloWorldHandler );
    
     function calculateAge ( req : Request , res : Response ) {
     const obj : { name : string , anoNascimento : number } = req . body ;
@@ -20,7 +20,7 @@ function helloWorldHandler ( req : Request , res : Response ) {
     res . status (200) . json ({ mensagem : `$ { person . nome } tem $ { person . calculaIdade () } anos . `})
     }
    
-    app . post ('/api/age ', calculateAge ) ;
+    app . post ('/api/age', calculateAge ) ;
    
     function getIdFromParameter ( req : Request , res : Response ) {
     const userId = req . query . id ;
@@ -28,7 +28,7 @@ function helloWorldHandler ( req : Request , res : Response ) {
    userId } `}) ;
     }
    
-    app . get ('/ api/ user ', getIdFromParameter ) ;
+    app . get ('/api/user', getIdFromParameter ) ;
    
     function getIdFromPath ( req : Request , res : Response ) {
     const userId = req . params . id ;
@@ -36,9 +36,9 @@ function helloWorldHandler ( req : Request , res : Response ) {
    userId } `}) ;
     }
    
-    app . get ('/ api/ user /: id ', getIdFromPath ) ;
+    app . get ('/api/user/:id', getIdFromPath ) ;
    
     function portLog () {
     console . log (` Servidor acessivel em : http :\\ localhost : $ { PORT } `) ;
     }
-    app . listen ( PORT , portLog ) ;
+    app . listen ( PORT , portLog );
